@@ -40,8 +40,16 @@ section {
     margin-right: 10px;
 }
 .enter {
-    background-color: #18e990;
+    background-color: #00e984;
+    transition: 0.2s;
 }
 .exit {
     background-color: #cc0000;
+    transition: 0.2s;
+}
+.enter:hover {
+    background-color: #6ee8b3;
+}
+.exit:hover{
+    background-color: #d46767;
 }
